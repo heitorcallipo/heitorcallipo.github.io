@@ -1,0 +1,37 @@
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 0 2.6rem; //padding interno para ficar responsive (NÃO USAR HEIGHT FIXO)
+  border-radius: 12.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 4.8rem; //MESMO TAMANHO DO HEIGHT PARA CENTRALIZAR TEXTO
+}
+
+.btn-primary {
+  background-color: $brand-yellow;
+  color: #855b35;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #ffdc5c;
+  }
+}
+
+.btn-secondary {
+  border: 1px solid #00a5f0;
+  color: $brand-light-blue;
+  transition: all 0.4s;
+  &:hover {
+    background-color: $brand-light-blue;
+    color: #fff;
+  }
+  &.white {
+    border: 1px solid #fff;
+    color: white;
+    &:hover {
+        background-color: #fff;
+        color: $brand-green-light;
+    }
+  }
+}
