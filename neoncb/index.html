@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css" />
     <title>Neon - LP</title>
   </head>
@@ -43,7 +44,7 @@
 
     <section class="s-hero">
       <div class="container">
-        <div class="text">
+        <div class="text" data-aos="fade-right">
           <h3>Abra sua conta, é só baixar o app!</h3>
           <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
           <button class="btn-primary">Abra sua conta digital</button>
@@ -82,8 +83,8 @@
         </div>
 
         <div class="area-image">
-          <h2>Banco 100% digital</h2>
-          <div class="image">
+          <h2 data-aos="fade-left">Banco 100% digital</h2>
+          <div class="image" data-aos="zoom-in">
             <img
               src="assets/card-neon-frnt.png"
               class="card-front"
@@ -112,10 +113,11 @@
               src="assets/circle-mockup.svg"
               alt="circle mockup"
               class="circle"
+              data-aos="fade-left"
             />
-            <img src="assets/mockup.svg" class="mockup" alt="mockup" />
+            <img src="assets/mockup.svg" class="mockup" alt="mockup" data-aos="flip-right"/>
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-up">
             <div class="icon">
               <img src="assets/icon-neon.svg" alt="icon neon" />
             </div>
@@ -141,7 +143,7 @@
           </div>
         </div>
         <div class="right-area">
-          <div class="main-text">
+          <div class="main-text" data-aos="fade-left">
             <h2>Resolva sua vida direto pelo app Neon!</h2>
             <ul>
               <li>
@@ -197,7 +199,7 @@
             </ul>
             <a href="" class="btn">Conheça outros produtos</a>
           </div>
-          <div class="box-card">
+          <div class="box-card" data-aos="fade-left">
             <div class="text">
               <h2>Neon Pejota</h2>
               <h3>Contas digitais PJ gratuitas para decolar seu negócio!</h3>
@@ -222,7 +224,7 @@
 
     <section class="s-depoimentos">
       <div class="container">
-        <div class="top">
+        <div class="top" data-aos="fade-right">
           <h2>
             <span>Prático, fácil, moderno</span> Você resolve tudo sem estresse
             😊
@@ -230,7 +232,7 @@
           <div class="swiper-pagination"></div>
         </div>
 
-        <div class="slide-depoimentos">
+        <div class="slide-depoimentos" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="card-depoimento">
@@ -300,7 +302,7 @@
 
     <section class="s-conta-digital">
       <div class="container">
-        <div class="text">
+        <div class="text" data-aos="fade-right">
           <h2>
             <span>Aproveite</span> Domine o seu dinheiro com uma conta 100%
             digital
@@ -340,12 +342,13 @@
           <button class="btn-primary">Abra sua conta digital</button>
         </div>
         <div class="image">
-          <img src="assets/mockup-01.svg" alt="mockup01" class="mockup-01" />
-          <img src="assets/mockup-02.png" alt="mockup02" class="mockup-02" />
+          <img src="assets/mockup-01.svg" alt="mockup01" class="mockup-01" data-aos="fade-up"/>
+          <img src="assets/mockup-02.png" alt="mockup02" class="mockup-02" data-aos="fade-down"/>
           <img
             src="assets/circle-conta-digital.svg"
             alt="circle"
             class="circle"
+            data-aos="zoom-in"
           />
         </div>
       </div>
@@ -494,6 +497,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
       var swiper = new Swiper(".slide-depoimentos", {
@@ -518,6 +522,12 @@
           },
         },
       });
+
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+
     </script>
   </body>
 </html>
