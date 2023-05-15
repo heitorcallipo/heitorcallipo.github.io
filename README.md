@@ -1,6 +1,7 @@
 # heitorcallipo.github.io
 
 [ENGLISH]
+
 🚀 Redesign Neon LP - Project
 
 🎯 Main objective: Recreate the interface of the NEON bank landing page with a primary focus on accurately matching the official FIGMA design.
@@ -21,6 +22,7 @@
 
 
 [PORTUGUÊS]
+
 🚀 Redesign Neon LP - Projeto
 
 🎯 Objetivo principal: Recriar a interface da landing page do banco NEON com foco primordial na precisão do design oficial do FIGMA.
@@ -39,11 +41,13 @@
 
 🌟 Desenvolvido por Heitor como parte do curso Codeboost.
 
+
 [SCREENSHOT]
 
 ![SCREENSHOT NEON](ss/neon-ss.png)
 
 [ENGLISH]
+
 🚀 Kinghost Landing Page - Project
 
 🎯 Main objective: This project aims to enhance and apply the knowledge acquired in the SASS module during the Codeboost course.
@@ -64,6 +68,7 @@
 
 
 [PORTUGUÊS]
+
 🚀 Kinghost Landing Page - Projeto
 
 🎯 Objetivo principal: Este projeto tem como objetivo aprimorar e aplicar os conhecimentos adquiridos no módulo de SASS durante o curso Codeboost.
@@ -82,11 +87,14 @@
 
 🌟 Desenvolvido por Heitor como parte do curso Codeboost.
 
+
 [SCREENSHOT]
 
 ![SCREENSHOT KingHost](ss/kinghost-ss.png)
 
+
 [ENGLISH]
+
 🚀 Wireframe Landing Page - Project
 
 🎯 Main objective: This project aims to enhance and apply the knowledge acquired in the basic layout module during the Codeboost course.
@@ -111,6 +119,7 @@
 
 
 [PORTUGUÊS]
+
 🚀 Wireframe Landing Page - Projeto
 
 🎯 Objetivo principal: Este projeto tem como objetivo aprimorar e aplicar os conhecimentos adquiridos no módulo básico sobre layout durante o curso Codeboost.
