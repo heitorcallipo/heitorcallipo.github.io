@@ -1,0 +1,83 @@
+*
+    background-color: #14162B
+    color: #000000
+    font-family: 'Inter', sans-serif
+
+html 
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+
+.title
+    display: flex
+    justify-content: center
+    color: #f1f1f1
+    font-weight: bold
+    text-transform: uppercase
+    font-size: 40px
+
+.container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 15px
+    background-color: #1C1F36
+    border-radius: 50px 
+    border: 1px solid none
+    width: 600px
+    height: 330px
+    .innerContainer
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+        background-color: #1C1F36
+
+.cardCep
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    background-color: #F29100
+    width: 100%
+    max-width: 500px
+    border-radius: 20px
+.info
+    display: flex
+    align-items: center
+    gap: 6px
+    background-color: #F29100
+    border-radius: 12px
+    padding-left: 10px
+    padding-bottom: 5px
+    h3
+        background-color: #f29100
+    span
+        background-color: #f29100
+        font-weight: 700
+    
+
+button 
+    font-weight: 700
+    color: white
+    background-color: #FFA07A
+    border: none
+    width: 100px
+    height: 50px
+    border-radius: 8px
+    cursor: pointer
+    transition: all .3s
+    &:hover
+        background-color: #FF8C69
+        color: #2f2f2f
+
+input
+    width: 100%
+    max-width: 250px
+    border: none
+    height: 50px
+    padding-left: 10px
+    border-radius: 10px
+    color: white
+    &::placeholder
+        color: #f1f1f1
